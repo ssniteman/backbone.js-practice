@@ -36,6 +36,11 @@ body {
     }
 }
 
+.assignment {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 /* Custom page footer */
 .footer {
     padding-top: 19px;
@@ -88,4 +93,13 @@ body {
     .jumbotron {
         border-bottom: 0;
     }
+}
+
+.list-item {
+    margin-top: 25px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
 }

@@ -29,6 +29,9 @@ var ListView = Backbone.View.extend({
 	createMainView: function(){
 
 		new MainView ({model: this.model})
+
+		$( "body" ).animate({scrollTop: $(".jumbotron").offset().top - 50 }, "slow");
+    	console.log('executed scrollToElement');
 	}
 
 });

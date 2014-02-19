@@ -20,3 +20,5 @@ var MainView = Backbone.View.extend({
 		this.$el.html( renderedjumboTemplate)
 	}
 })
+
+ 
